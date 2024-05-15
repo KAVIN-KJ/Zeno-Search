@@ -1,0 +1,47 @@
+.Container{
+    transition: 500ms ease;
+    max-width: 250px;
+    width: 250px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgb(26, 60, 255);
+    margin: 20px;
+    animation: appear 1s ease;
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.desc{
+    font-size: 20px;
+}
+
+.Container:hover{
+    box-shadow: 0px 0px 50px rgb(26, 60, 255);
+    scale: 1.01;
+
+}
+.Container img{
+    transition: 500ms ease;
+    width: auto;
+    height: 100px;
+    border-radius: 30%;
+    
+}
+.Container img:hover{
+    scale: 1.2;
+}

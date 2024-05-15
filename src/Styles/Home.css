@@ -1,0 +1,43 @@
+.Home{
+    display: flex;
+    position: relative;
+    bottom: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    overflow-y: auto;
+    width: 100%;
+    padding: 0px;
+    animation: home 2s ease;
+}
+
+.background{
+    position: fixed;
+    width: 100%;
+    z-index: -3;
+    height: 100%;
+    top: 110px;
+    background-size: contain;
+    background-position: center;
+}
+
+
+@keyframes home {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+.image{
+    width:auto;
+    height: 120px;
+    margin-bottom: 30px;
+}
+.label{
+    color: grey;
+    text-align: left;
+    margin: 20px;
+}

@@ -1,0 +1,42 @@
+.Categories input{
+    display: none;
+}
+
+.Categories input:checked + label{
+    background-color: rgb(0, 102, 255);
+    box-shadow: 0px 0px 50px rgb(0, 4, 255);
+    scale: 1.2;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.Categories label{
+    /* display: inline-block; */
+   
+    font-size: 20px;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    transition: 300ms ease;
+}
+
+.Categories label:hover{
+    scale: 1.2;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.Categories{
+    position: sticky;
+    top: 110px;
+    z-index: 2;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    width: 100%;
+    user-select: none;
+}

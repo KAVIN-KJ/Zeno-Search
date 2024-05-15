@@ -1,0 +1,26 @@
+/* @import '@fortawesome/fontawesome-free/css/all.css'; */
+
+.container{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    margin-right: 2px;
+    scale: 0.9;
+    /* margin: 0px 10px; */
+    transition: 300ms ease-in-out;
+    background-color: rgb(178, 189, 207);
+}
+.container:hover{
+    background-color: rgba(89, 134, 207, 0.589);
+}
+#icon{
+    margin-right: 10px;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    /* background-color: aqua; */
+    padding: 10px;
+}

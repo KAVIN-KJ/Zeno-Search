@@ -1,0 +1,38 @@
+.tabcontainer{
+    display: flex;
+    min-width: 200px;
+    max-height: 20px;
+    height: fit-content;
+    width: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px;
+    border-radius: 50px;
+    padding: 10px 10px;
+    animation: 1s appear ease;
+    font-size: 1.1em;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.tabcontainer:hover{
+    background-color: aliceblue;
+}
+
+.tabcontainerActive{
+    display: flex;
+    min-width: 200px;
+    max-height: 20px;
+    scale: 1.05;
+    height: fit-content;
+    width: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 50px;
+    margin: 8px;
+    padding: 10px 10px;
+    background-color: rgb(178, 189, 207);
+    font-size: 1.1em;
+    animation: 1s appear ease;
+}

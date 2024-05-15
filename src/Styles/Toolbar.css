@@ -1,0 +1,102 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+*{
+    transition: 300ms ease-in-out;
+}
+.toolbar{
+    display: flex;
+    background-color: rgb(178, 189, 207);
+    padding: 10px;
+    align-items: center;
+}
+.bookmarksbar{
+    display: flex;
+    background-color: rgb(178, 189, 207);
+    height: 40px;
+    padding: 5px;
+}
+
+#leftarrow{
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+#rightarrow{
+    margin-right: 20px;
+}
+
+#reload{
+    margin-right: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+i{
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    scale: 1.2;
+    transition: 400ms ease;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+i:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgb(0, 110, 255);
+}
+
+#bookmark{
+    position: relative;
+    right: 55px;
+    margin: 0px;
+}
+
+#zoom{
+    position: relative;
+    right: 40px;
+    margin: 0px;
+}
+
+#siteInfo{
+    position: relative;
+    left: 30px;
+}
+
+#extensions{
+    position: relative;
+    right: 15px;
+}
+
+#profile{
+    margin-right: 15px;
+}
+
+#menu{
+    margin-right: 10px;
+}
+
+#mute{
+    margin-right: 15px;
+}
+
+
+.addressbar{
+    flex:1;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 110, 255);
+    outline: 400ms;
+    height: 1.5em;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 65px;
+    background-color: rgb(150, 150, 150);
+
+}
+.addressbar:focus{
+    outline: none;
+    border-radius: 55px;
+    box-shadow: 0px 0px 5px rgb(0, 110, 255);
+    background-color: rgba(104, 153, 226, 0.336);
+}
