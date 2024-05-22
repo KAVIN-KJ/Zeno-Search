@@ -18,7 +18,7 @@ Welcome to the Chrome-Inspired Web Browser project! This project is a labor of l
 
 To get started with the project locally, follow these steps:
 
-1. Clone this repository.
+1. Clone this repository using `git clone https://github.com/KAVIN-KJ/Zeno-Search.git`.
 2. Navigate to the project directory.
 3. Install dependencies using `npm install`.
 4. Start the development server with `npm run dev`.
